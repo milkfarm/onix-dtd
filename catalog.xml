@@ -13,5 +13,9 @@
   <system systemId="http://www.editeur.org/onix/2.1/03/short/onix-international.dtd" uri="2.1r3/short/onix-international.dtd"/>
   <system systemId="http://www.editeur.org/onix/3.0/reference/onix-international.dtd" uri="3.0/ONIX_BookProduct_3.0_reference.dtd"/>
   <system systemId="http://www.editeur.org/onix/3.0/short/onix-international.dtd" uri="3.0/ONIX_BookProduct_3.0_short.dtd"/>
+  <system systemId="http://www.editeur.org/onix/3.0.3/reference/onix-international.dtd" uri="3.0.3/ONIX_BookProduct_3.0_reference.dtd"/>
+  <system systemId="http://www.editeur.org/onix/3.0.3/short/onix-international.dtd" uri="3.0.3/ONIX_BookProduct_3.0_short.dtd"/>
+  <system systemId="http://www.editeur.org/onix/3.0.7/reference/onix-international.dtd" uri="3.0.7/ONIX_BookProduct_3.0_reference.dtd"/>
+  <system systemId="http://www.editeur.org/onix/3.0.7/short/onix-international.dtd" uri="3.0.7/ONIX_BookProduct_3.0_short.dtd"/>
 
 </catalog>

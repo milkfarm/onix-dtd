@@ -1,4 +1,5 @@
 <?xml encoding="UTF-8"?>
+
 <!--
 
 	**************************************************
@@ -17,9 +18,9 @@
 	*                  Revision 1                    *
 	*                Status: RELEASED                *
 	*            Release date: 2009-04-09            *
-	*              Revised: 2019-10-31               *
+	*              Revised: 2012-01-27               *
 	*                                                *
-	*             (c) 2000-2019 EDItEUR              *
+	*             (c) 2000-2011 EDItEUR              *
 	*             http://www.editeur.org/            *
 	*                                                *
 	**************************************************
@@ -64,8 +65,6 @@
 
 
 	SCHEMA REVISION HISTORY (IN REVERSE CHRONOLOGICAL ORDER)
-
-	2019-07-28: Added HTML start and type attributes to <ol> tag for use in complex TOCs
 
 	2014-01-24: removed <object> and <param> element definitions
 
@@ -285,9 +284,7 @@ THE FOLLOWING ENTITY SETS ARE EXCLUDED FROM ALL VERSIONS OF THE ONIX SCHEMA.
 
 <!-- Ordered (numbered) list -->
 <!ELEMENT ol (li)+>
-<!ATTLIST ol %attrs;
-start CDATA #IMPLIED
-type (1|I|i|A|a) #IMPLIED>
+<!ATTLIST ol %attrs;>
 
 <!-- list item -->
 <!ELEMENT li %Flow;>
